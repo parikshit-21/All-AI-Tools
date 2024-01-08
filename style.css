@@ -1,0 +1,79 @@
+body{
+    background-color: blueviolet;
+    margin-right: auto;
+}
+
+.heading{
+    color: blue;
+    text-align: center;
+    background-color: rgb(164, 202, 183);
+    font-family: 'Lemon', serif;
+    /* font-family: 'Long Cang', cursive;
+    font-family: 'Salsa', cursive; */
+    margin: 15px;
+    padding: 2%;
+    line-height: 5%;
+}
+h1:hover{
+    color: blueviolet;
+}
+
+hr{
+    width: 30%;
+    height: 1px;
+    background-color: white;
+    border: 0px;
+}
+
+a{
+	text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #5e84ba;
+    font-family: 'Salsa', cursive;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+div.btn:hover{
+    background-color: rgb(47, 83, 83);
+    
+}
+
+.btn-back{
+    /* background-color: rgb(194, 55, 67); */
+    padding: 5px;
+    margin: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 160px 160px 160px 160px 160px 160px 160px  ;
+    grid-gap: 30px;
+}
+
+
+  
+div.btn .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 70%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+div.btn:hover .tooltiptext {
+    visibility: visible;
+}
