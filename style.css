@@ -3,18 +3,24 @@ body{
 }
 
 .heading{
-    color: blue;
-    text-align: center;
     background-color: rgb(164, 202, 183);
-    font-family: 'Lemon', serif;
-    /* font-family: 'Long Cang', cursive;
-    font-family: 'Salsa', cursive; */
+    display: inline-flexbox;
     margin: 2%;
     padding: 2%;
     line-height: 5%;
     border-radius: 15px;
 }
-h1:hover{
+
+p{
+    color: blue;
+    text-align: center;
+    font-family: 'Lemon', serif;
+    font-size: 15pt;
+    /* font-family: 'Long Cang', cursive;
+    font-family: 'Salsa', cursive; */
+    
+}
+p:hover{
     color: blueviolet;
 }
 
